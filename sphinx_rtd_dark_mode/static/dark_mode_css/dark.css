@@ -112,12 +112,17 @@ html[data-theme='dark'] .wy-menu-vertical li.on a:hover {
   background-color: #1e1e1e;
 }
 
-html[data-theme='dark'] .wy-menu-vertical li.toctree-l2.current > a,
 html[data-theme='dark']
-  .wy-menu-vertical
-  li.toctree-l2.current
-  li.toctree-l3
-  > a {
+  .wy-menu-vertical li.current > a span.toctree-expand,
+  .wy-menu-vertical li.on a span.toctree-expand {
+  color: #626262;
+}
+
+html[data-theme='dark']
+  .wy-menu-vertical li.toctree-l2.current > a,
+html[data-theme='dark']
+  .wy-menu-vertical li.toctree-l2.current
+  li.toctree-l3 > a {
   background-color: #18181a;
 }
 
