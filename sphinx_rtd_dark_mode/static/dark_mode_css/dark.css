@@ -119,11 +119,43 @@ html[data-theme='dark']
 }
 
 html[data-theme='dark']
+  .wy-menu-vertical li.toctree-l1.current > a,
+html[data-theme='dark']
+  .wy-menu-vertical li.toctree-l1.current
+  li.toctree-l2 > a {
+  background-color: #18181a;
+}
+
+html[data-theme='dark']
   .wy-menu-vertical li.toctree-l2.current > a,
 html[data-theme='dark']
   .wy-menu-vertical li.toctree-l2.current
   li.toctree-l3 > a {
-  background-color: #18181a;
+  background-color: #1c1c1e;
+}
+
+html[data-theme='dark']
+  .wy-menu-vertical li.toctree-l3.current > a,
+html[data-theme='dark']
+  .wy-menu-vertical li.toctree-l3.current
+  li.toctree-l4 > a {
+  background-color: #202022;
+}
+
+html[data-theme='dark']
+  .wy-menu-vertical li.toctree-l4.current > a,
+html[data-theme='dark']
+  .wy-menu-vertical li.toctree-l4.current
+  li.toctree-l5 > a {
+  background-color: #242426;
+}
+
+html[data-theme='dark']
+  .wy-menu-vertical li.toctree-l5.current > a,
+html[data-theme='dark']
+  .wy-menu-vertical li.toctree-l5.current
+  li.toctree-l6 > a {
+  background-color: #28282a;
 }
 
 html[data-theme='dark'] .wy-side-nav-search {
